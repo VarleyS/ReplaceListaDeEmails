@@ -12,8 +12,8 @@ namespace ReplaceListaDeEmails
     {
         static void Main(string[] args)
         {
-            string inputFilePath = "D:\\Usuários\\Cliente\\Desktop\\bounce_simpar.xlsx";
-            string outputFilePath = "D:\\Usuários\\Cliente\\Documents\\output.xlsx";
+            string inputFilePath = "arquivo.xlsx";
+            string outputFilePath = "output.xlsx";
 
             List<string> items = ReadFromExcel(inputFilePath);
             List<string> modifiedItems = AddQuotesToList(items);
